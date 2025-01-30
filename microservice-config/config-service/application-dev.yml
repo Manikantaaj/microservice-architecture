@@ -1,1 +1,2 @@
 name: dev
+profiles : config-service
