@@ -6,11 +6,12 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/Manikantaaj/microservice-architecture/microservice-config.git
+          searchPaths: microservice-config/config-service
         bootstrap: true
 
 server:
-  port: 8080
+  port: 8888
 
 eureka:
   client:
